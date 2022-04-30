@@ -16,10 +16,10 @@ finally:
     f.close()
 
 try:
-    pattern_num = int(input("Enter how many patterns you want to create (max: 10): "))
+    pattern_num = int(input("Enter how many patterns you want to create (default max: 10): "))
 except ValueError:
     print("Wrong input! Please enter a number")
-    pattern_num = int(input("Enter how many patterns you want to create (max: 10): "))
+    pattern_num = int(input("Enter how many patterns you want to create (default max: 10): "))
 
 try:
     responses_num = int(input("Enter how many responses you want to create: "))
